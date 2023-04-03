@@ -14,9 +14,9 @@ export const Navbar = () => {
     return (
         <div className='navbar'>
             <div className='links'>
-                <Link to='/'>Home </Link>
-                {!user ? <Link to='/login'>Login </Link>
-                    : <Link to='/createpost'>Create post </Link>
+                <Link className='lLinks' to='/'>Home </Link>
+                {!user ? <Link className='lLinks' to='/login'>Login </Link>
+                    : <Link className='lLinks' to='/createpost'>Create post </Link>
                 }
             </div>
 

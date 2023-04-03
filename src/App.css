@@ -12,11 +12,19 @@ body {
   display: flex;
   justify-content: flex-end;
   align-items: center;
+  background-color: #5c4cc5;
+  color: white;
 
 }
 
-.links {
-  margin-right: 16px;
+.navbar .links {
+  padding: 16px 0;
+  margin-right: 32px;
+}
+
+.navbar .links .lLinks {
+  color: white;
+  
 
 }
 
@@ -29,4 +37,31 @@ body {
 
 .user img {
   border-radius: 50%;
+}
+
+.formCreatePost {
+  margin-top: 32px;
+  display: flex;
+  flex-direction: column;
+  max-width: 30%;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #7c6cfb;
+  border-radius: 4px;
+  padding: 32px 16px;
+}
+
+.formCreatePost input,
+.formCreatePost textarea {
+  border-radius: 4px;
+  opacity: 0.6;
+  border: none;
+}
+
+.formCreatePost .formCreatePostSubmit:hover {
+  cursor: pointer;
+}
+
+.formCreatePost p {
+  font-size: 12px;
 }
