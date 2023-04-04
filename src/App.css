@@ -42,7 +42,8 @@
 .user button {
   padding: 4px;
   opacity: 0.6;
-
+  border-radius: 4px;
+  border: none;
 }
 
 .user button:hover {
