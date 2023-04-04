@@ -23,9 +23,9 @@ export const Navbar = () => {
             <div className='user'>
                 {user && (
                     <>
-                        <p>{user?.displayName}</p>
-                        <img src={user?.photoURL || ''} width='20' height='20' />
-                        <button onClick={signUserOut}>Log out</button>
+                        <p className='userItem'>{user?.displayName}</p>
+                        <img className='userItem' src={user?.photoURL || ''} width='20' height='20' />
+                        <button className='userItem' onClick={signUserOut}>Log out</button>
                     </>
                 )}
             </div>

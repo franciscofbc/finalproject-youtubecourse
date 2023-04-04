@@ -2,10 +2,11 @@
   text-align: center;
 }
 
-body {
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 .navbar {
@@ -24,19 +25,32 @@ body {
 
 .navbar .links .lLinks {
   color: white;
-  
-
+  margin-left: 8px;
 }
 
-.user {
+.navbar .user {
   display: flex;
   justify-content: flex-end;
   align-items: center;
-
+  margin-right: 16px;
 }
 
 .user img {
   border-radius: 50%;
+}
+
+.user button {
+  padding: 4px;
+  opacity: 0.6;
+
+}
+
+.user button:hover {
+  cursor: pointer;
+}
+
+.navbar .user .userItem {
+  margin-left: 8px;
 }
 
 .formCreatePost {
@@ -56,6 +70,7 @@ body {
   border-radius: 4px;
   opacity: 0.6;
   border: none;
+  padding: 8px;
 }
 
 .formCreatePost .formCreatePostSubmit:hover {
@@ -64,4 +79,6 @@ body {
 
 .formCreatePost p {
   font-size: 12px;
+  margin-bottom: 16px;
+
 }
